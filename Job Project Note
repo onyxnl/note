@@ -1,0 +1,65 @@
+Job posting 
+job listing =>loadmore feature
+job filer   => job category
+
+Agent login/Register =>logo, company information
+User Login/Register
+backend  =>pagination
+
+
+pdf, email, when upload pdf, fill the data
+Sequelize ORM
+
+
+
+DB Structure
+
+1. 	user
+	id	integer AI
+	name varchar(55)
+	phone varchar(55)
+	email varchar(55) null
+	roll smallinteger. default 1 // user or agent
+	status  smallinteger default 0 // pending , approved
+	created_at timestamp currenttime
+	updated_at timestamp null
+
+2.	jobs
+	id integer AI
+	title varchar(155)
+	description text
+	salary varchar(155)
+	category_id integer unsigned
+	agent_id integer unsigned
+	company varchar(55)
+	how_to_apply varchar(255). // contact number
+	created_at timestamp currenttime
+	updated_at timestamp null
+
+3.	categories
+	id integer AI
+	name varchar(155)
+	created_at timestamp currenttime
+	updated_at timestamp null
+
+4.	resumes
+	id integer AI
+	title varchar(155)
+	description text
+	user_id integer unsigned
+	how_to_contact varchar(155)
+	category_id integer
+	created_at timestamp currenttime
+	updated_at timestamp null
+
+
+
+
+
+
+
+
+
+
+
+

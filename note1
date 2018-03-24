@@ -1,0 +1,75 @@
+ES6 standard(react) only working for UI
+Like library
+
+
+let x = 10;
+let သည္ local ထဲမွာဘဲ အလုပ္လုပ္
+
+const pi = 5.143
+
+
+
+Typescript( angular) 
+framework. full work
+
+var y = 10;
+
+var y သည္ အားလံုးအတြက္သံုးနိင္
+
+
+
+Request with API
+Render from API to show view
+
+OPERATOR
+1)math operator  (+,-,*,/,%)
+2)Assignment operator (=)
+3)Conditional Operator ( == , != , > , <)
+4)Concatation Operator(+)
+5)Logical Operator ( AND, OR)
+6) Terninary Operator ( ?  : ) prefix = ( age > 18 )? "U" : "Mg";
+
+
+Conditional Statement
+
+if
+if else
+if elseif 
+switch
+
+Loop
+for loop
+while loop
+dowhile loop
+map() call back map(array,function())
+each() each(array,function())
+
+Annomenance function(){}
+
+function has no parameter it will show undefined in javascript
+
+EXAMPLE function sum(var x){} sum() ANSWER undefined
+
+
+Object   {
+	name : "Mg Mg";
+	age. : "18"
+}
+Array new Array(), []
+
+
+ES6 class pen{
+	
+}
+var mgmg = new pen();
+
+SSR ( Server Side Rendering) working with react
+
+
+
+
+
+
+
+
+

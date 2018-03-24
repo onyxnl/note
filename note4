@@ -1,0 +1,25 @@
+To use route => Need to declare and import router module in app.module.ts
+1. Route declare 
+2. Route Import
+3. Route Path
+
+To prevent refresh in angular, use "routeLink"
+
+ngModel is two-way data binding
+ngForm is represent to Form
+
+Service is working for business service
+API call
+local database
+
+ng generate service will generate service.
+
+.spec.ts is using for unit testing.
+
+1."ng g service notice" is create service files.
+notice.service.ts
+notice.service.spec.ts
+
+2.** service need to declare in app.module manually & declare in provider
+
+3. import service name where you want to use.(eg. app component.ts)

@@ -1,0 +1,26 @@
+<app-root> is component
+
+component is under app folder
+component has selector. that is calling to template.
+
+form form module
+ajax http module
+browser browser module
+need to import first.
+
+component is working as template
+directive ()
+Pipe 		output format (eg.date format)
+service		business logic so yin service , API request is working with service
+guard		securite for route
+Enum 		predefined value
+module 		
+
+Attribute is starting []
+
+event name is starting () eg-  change,click,mouseover,
+
+ngOnInit() initial sa lote tap time
+
+ngOnDestory() other page go use to reduce page load
+

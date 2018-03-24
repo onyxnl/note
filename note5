@@ -1,0 +1,158 @@
+
+node.js => Use require('http') ; calling to http module
+
+create folder
+go to folder
+then type "npm init" to get package.json
+
+node index.js ( to run the project)
+
+----------------------
+expressjs
+sudo npm install -g express-generator
+express --view=ejs myexpressapp
+
+*** DEBUG=myexpressapp:* npm start ( run commend)
+
+code write inside app.js
+
+package.json
+
+body-parser = > carry form data
+ejs => javascript template engine
+cookie-parser => carry cookie data 
+
+ejs syntax <%= title %>
+
+To prevent every changes to run again and again. use nodemon.js
+// for dev
+npm install -g nodemon  
+
+Then add below code into package.json as script
+"dev"  : "nodemon ./bin/www"
+
+** npm run dev( run commend)
+if show error dev script missing, add following code into package.json
+"scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+_______________
+
+Route defined in app.js
+
+var index = require('./routes/index');
+var users = require('./routes/users');
+app.use('/', index);
+app.use('/users', users);
+
+
+npm install express-ejs-layouts --save ( layout)
+
+npm install connect-flash ( to show error message alert)
+
+// <%- include ./flash_messages %> add in layout.ejs
+npm install express-session ( for session)   then declare in app.js
+$ npm install mysql -- save ( mysql)
+req.body is to get formdata
+
+
+
+sample project in github 
+type mysqljs 
+
+
+
+myanmarjobdb
+myjob
+jobnet
+work.com.mm
+
+
+vps. firebase
+
+pm2( production) - npm resert 
+
+
+How to call mysql in express
+var mysql      = require('mysql');
+
+
+var connection = mysql.createConnection({
+  host     : 'localhost',
+  user     : 'me',
+  password : 'secret',
+  database : 'my_db'
+});
+
+*** connect အဖြင္႔အပိတ္ လုပ္ေပးပါ
+mysql -u root -proot ( check database password)
+
+ORM
+socketIO ( real time process )
+postman
+
+
+npm install -g node-gyp-install.  
+
+// password encrypt
+npm install bcrypt -- save
+
+//authentication middleware
+$ npm install passport
+npm install passport local --save
+https://github.com/passport/express-4.x-local-example
+
+moment js // datetime
+npm install moment --save
+
+
+
+// to protect route
+
+$ npm install connect-ensure-login --save
+
+//passport jwt create token
+
+
+
+real world (sample project)
+
+TO ask
+
+//require('newrelic'); for what
+
+//npm install dotenv --save for what
+
+//npm install compression --save (middleware for what)
+
+//npm install node-adwords --save ( to prevent adwords)
+
+job
+global science
+https://www.nehthit.com/
+
+
+filesystem cache
+sequalize npm for model format
+
+// to prevent 'Access-Control-Allow-Origin' do from server
+npm install cors --save
+
+
+subscribe is Observables. It should be use at chat room(real time)
+
+TO use enviroment variable
+
+npm install dotenv --save
+
+// to run cordova
+
+    -c -l
+
+
+    to get theme for free
+
+    wget -r -l3 http://www.webstrot.com/html/jobpro/job_dark/index.html
+
+

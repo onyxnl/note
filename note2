@@ -1,0 +1,37 @@
+Design pattern
+Reuseable function
+template style {{ name}}
+Rounting (client side)
+
+cause of long loading speed
+
+- backend api
+- server bandwidth
+- images size
+- so many pages
+- avoid unnessary looping in query
+
+
+
+image should use ( lazy load)
+minify css and js
+
+e2e 				- unit testing
+node_module 		- library, reference ( cannot delete), It is dependancy
+					- When upload to server, it is no need to upload
+src					- project code
+angular-cli.json 	- cannot edit
+karma.conf.js 		- unit testing framework
+package.json		- Important. It is defined the dependancy
+
+
+"scripts": {
+    "ng": "ng",
+    "start": "ng serve", ( ng serve = npm start)
+    "build": "ng build", ( final step, After all finish the project, run build. It will generate 						html files and js files seperately.)
+    "test": "ng test", 	 ( for unit testing )
+    "lint": "ng lint",   ( for syntax error)
+    "e2e": "ng e2e"		 ( for end to end unit testing )
+  },
+
+
